@@ -1,0 +1,14 @@
+{
+  "name": "cryptocurrencies-periodictable",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/emadgit/cryptocurrencies-periodictable.git",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel ./index.html",
+    "build": "parcel build --public-url . ./index.html"
+  },
+  "devDependencies": {
+    "cssnano": "^4.1.10"
+  }
+}
